@@ -21,7 +21,7 @@ initialBalance = balance
 low = initialBalance/12
 high = initialBalance
 fmp = (low + high)/2
-#Bisection search through fmp guesses until balance is near zero
+# Bisection search through fmp guesses until balance is near zero
 while balance >= 0.01 or balance <= -0.01:
     balance = initialBalance
     for month in range(1,13):
